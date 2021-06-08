@@ -8,30 +8,23 @@
         }
         function compute()
         {
-
         let x=document.getElementById("result").value
         let y=eval(x)
         document.getElementById("result").value=y
         }
-        
         function clr(){
         document.getElementById("result").value=""
         }
         </script>
 </head>
 <body>
-    
-    
 <center>
     <h1>Simple calculator using javascript</h1>
-
 <table border="1">
     <tr>
         <td colspan="3"><input type="text" id="result"</td>
-        
     </tr>
     <tr>
-
 <td><input type="button" value="0" onclick="view(0)"/></td>
 <td><input type="button" value="1" onclick="view(1)"/></td>
 <td><input type="button" value="2" onclick="view(2)"/></td>
@@ -49,7 +42,6 @@
     <td><input type="button" value="8" onclick="view(8)"/></td>
     <td><input type="button" value="*" onclick="view('*')"/></td>
 </tr>
-
 <tr>
 <td><input type="button" value="9" onclick="view('9')"/></td>
 <td><input type="button" value="+/-" onclick="view('+/-')"/></td>
@@ -59,13 +51,11 @@
 <tr>
     <td><input type="button" value="clear" onclick="clr()"/></td>
 </tr>
-
 </table>
 </center>
 </body>
 </html>
 <style>
-
 input[type="button"]
 {
     background-color: rgba(206, 201, 201, 0.301);
