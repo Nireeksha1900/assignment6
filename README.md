@@ -21,7 +21,7 @@
 <center>
 <table border="1">
     <tr>
-        <td colspan="3"><input type="text" id="result"</td>
+        <td colspan="3"><input type="text" id="result"></td>
     </tr>
     <tr>
 <td><input type="button" value="0" onclick="view(0)"/></td>
