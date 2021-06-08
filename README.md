@@ -19,7 +19,6 @@
 </head>
 <body>
 <center>
-    <h1>Simple calculator using javascript</h1>
 <table border="1">
     <tr>
         <td colspan="3"><input type="text" id="result"</td>
