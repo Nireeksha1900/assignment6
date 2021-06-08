@@ -1,4 +1,3 @@
-# assignment6
 <html>
 <head>
     <script>
@@ -63,5 +62,4 @@ input[type="button"]
     border: solid black 2px;
     width: 100%;
 }
-
 </style>
